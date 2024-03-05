@@ -2,9 +2,16 @@
   "name": "oregon-trail-camporee",
   "module": "index.ts",
   "type": "module",
+  "scripts": {
+    "dev": "cd hugo && hugo server --disableFastRender",
+    "build": "cd hugo && hugo --minify",
+    "build:local": "rm -rf public && npm run build"
+  },
   "devDependencies": {
     "@types/bun": "latest",
-    "firebase-tools": "^13.4.0"
+    "firebase-tools": "^13.4.0",
+    "prettier": "^3.2.5",
+    "prettier-plugin-go-template": "^0.0.15"
   },
   "peerDependencies": {
     "typescript": "^5.0.0"

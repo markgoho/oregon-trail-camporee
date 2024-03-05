@@ -1,0 +1,23 @@
+<!-- META TAGS -->
+<meta charset="utf-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<title>{{ .Title }}</title>
+
+<link rel="preconnect" href="https://fonts.googleapis.com" />
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+<link
+  href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans&family=Prompt:wght@400;500;800&display=swap"
+  rel="stylesheet"
+/>
+
+{{ $options := (dict "targetPath" "style.css" "outputStyle" "compressed" ) }}
+{{ $style := resources.Get "styles.scss" | resources.ToCSS $options | resources.Fingerprint }}
+<link rel="stylesheet" href="{{ $style.RelPermalink }}" />
+
+<!-- Extras -->
+{{ block "scripts" . }}
+{{ end }}
+
+{{ block "meta" . }}
+  {{ partial "meta.html" . }}
+{{ end }}

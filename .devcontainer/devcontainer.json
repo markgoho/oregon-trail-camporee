@@ -9,14 +9,15 @@
   "features": {
     "ghcr.io/devcontainers/features/hugo:1": {
       "extended": true
-    }
-  }
+    },
+    "ghcr.io/devcontainers/features/go:1": {}
+  },
 
   // Use 'forwardPorts' to make a list of ports inside the container available locally.
-  // "forwardPorts": [],
+  "forwardPorts": [1313],
 
   // Use 'postCreateCommand' to run commands after the container is created.
-  // "postCreateCommand": "uname -a",
+  "postCreateCommand": "curl -fsSL https://bun.sh/install | bash"
 
   // Configure tool-specific properties.
   // "customizations": {},
