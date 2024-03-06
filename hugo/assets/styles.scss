@@ -12,6 +12,8 @@
 :root {
   --content-width: 53rem;
   --light-green: hsl(106, 71%, 94%);
+  --dark-green: hsl(102, 82%, 7%);
+  --lime-green: hsl(106, 93%, 63%);
 }
 
 h1,
@@ -22,16 +24,21 @@ h4 {
 }
 
 h2 {
-  margin-top: 2rem;
+  margin-top: 2.5rem;
 }
 
 p {
   font-family: Avenir, sans-serif;
+  font-size: clamp(1rem, 1.5vw, 1.25rem);
+
+  a {
+    color: var(--lime-green);
+  }
 }
 
 body {
   color: var(--light-green);
-  background-color: hsl(102, 82%, 7%);
+  background-color: var(--dark-green);
 }
 
 .header {
@@ -42,8 +49,8 @@ body {
 }
 
 .nav {
-  // outline: 1px solid yellow;
   margin: 2rem auto;
+
   ul {
     display: flex;
     gap: 2rem;
