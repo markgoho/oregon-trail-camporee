@@ -3,7 +3,7 @@
   "module": "index.ts",
   "type": "module",
   "scripts": {
-    "dev": "cd hugo && hugo server --disableFastRender",
+    "dev": "cd hugo && hugo server --disableFastRender --liveReloadPort 443",
     "build": "cd hugo && hugo --minify",
     "build:local": "rm -rf public && npm run build"
   },
