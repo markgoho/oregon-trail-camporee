@@ -10,4 +10,44 @@
     {{ .Title }}
   </h1>
   {{ .Content }}
+  {{- if or (.PrevInSection) (.NextInSection) }}
+    <div class="post-nav">
+      {{- if .PrevInSection }}
+        <div class="post-nav-item post-nav-item--prev">
+          <a
+            class="post-nav-link"
+            href="{{ .PrevInSection.RelPermalink }}"
+            rel="prev"
+          >
+            <span class="post-nav-caption"
+              >Previous {{ .Type | singularize }}</span
+            >
+            <p class="post-nav-post-title">
+              {{ .PrevInSection.Title }}
+            </p>
+          </a>
+        </div>
+      {{- end }}
+      <a class="all-stations-link" href="/stations/">All Stations</a>
+      {{- if .NextInSection }}
+        <div
+          class="post-nav-item post-nav-item-next {{ if not .PrevInSection -}}
+            full-width
+          {{- end -}}"
+        >
+          <a
+            class="post-nav-link"
+            href="{{ .NextInSection.RelPermalink }}"
+            rel="next"
+          >
+            <span class="post-nav-caption">Next {{ .Type | singularize }}</span>
+            <p class="post-nav-post-title">
+              {{ .NextInSection.Title }}
+            </p>
+          </a>
+        </div>
+      {{- end }}
+    </div>
+  {{- end }}
+
 {{ end }}

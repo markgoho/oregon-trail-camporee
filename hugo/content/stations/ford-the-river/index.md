@@ -5,14 +5,12 @@ description: Some description
 
 ## Task
 
-- The patrol must build a fire using the materials they have to burn through string. The fastest time wins.
+- Patrols will do the Lizzie Gator challenge. Patrols must get four scouts across the river to win.
 
 ## Setup
 
 - All patrols will start with the string at the same height.
-- Each patrol will be given five matches.
-- Each patrol will be given flint, and steel.
-- Each patrol can buy additional materials to help.
+
 
 ## Rules
 

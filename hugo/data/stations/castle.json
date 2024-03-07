@@ -1,0 +1,22 @@
+[
+  {
+    "name": "Paddle",
+    "price": 5
+  },
+  {
+    "name": "Plywood",
+    "price": 5
+  },
+  {
+    "name": "Barrel",
+    "price": 5
+  },
+  {
+    "name": "Advice",
+    "price": 3
+  },
+  {
+    "name": "Tarp",
+    "price": 3
+  }
+]
