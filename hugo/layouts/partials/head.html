@@ -6,6 +6,13 @@
 {{ $style := resources.Get "styles.scss" | resources.ToCSS $options | resources.Fingerprint }}
 <link rel="stylesheet" href="{{ $style.RelPermalink }}" />
 
+<script
+  defer
+  src="https://api.pirsch.io/pirsch.js"
+  id="pirschjs"
+  data-code="GBniHUWpSMhpg3klDWqzDqLTo90bPitR"
+></script>
+
 <!-- Extras -->
 {{ block "scripts" . }}
 {{ end }}
