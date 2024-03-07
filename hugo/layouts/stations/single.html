@@ -1,0 +1,13 @@
+{{ define "head-styles" }}
+  {{ $pageCSS := "scss/stations.scss" }}
+  {{ $options := (dict "outputStyle" "compressed") }}
+  {{ $inlineCSS := resources.Get $pageCSS | resources.ToCSS $options }}
+<style>{{ $inlineCSS.Content | safeCSS }}</style>
+{{ end }}
+
+{{ define "main" }}
+  <h1 style="view-transition-name: station-{{ .Title | md5 }};">
+    {{ .Title }}
+  </h1>
+  {{ .Content }}
+{{ end }}

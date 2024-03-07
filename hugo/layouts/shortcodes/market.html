@@ -1,0 +1,8 @@
+{{ $market := .Get "data" }}
+
+{{ range (index $.Site.Data.stations $market) }}
+  <div>
+    <span>{{ .name }}</span>
+    <span>${{ .price }}</span>
+  </div>
+{{ end }}

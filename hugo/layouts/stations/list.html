@@ -1,0 +1,26 @@
+{{ define "head-styles" }}
+  {{ $pageCSS := "scss/stations-list.scss" }}
+  {{ $options := (dict "outputStyle" "compressed") }}
+  {{ $inlineCSS := resources.Get $pageCSS | resources.ToCSS $options }}
+<style>{{ $inlineCSS.Content | safeCSS }}</style>
+{{ end }}
+
+{{ define "main" }}
+  <div class="content-wrapper list-container">
+    <h1>
+      {{ .Title }}
+    </h1>
+    {{ .Content }}
+    <ul class="station-list">
+      {{ range .Pages.ByTitle }}
+        <li>
+          <a
+            href="{{ .RelPermalink }}"
+            style="view-transition-name: station-{{ .Title | md5 }};"
+            >{{ .Title }}</a
+          >
+        </li>
+      {{ end }}
+    </ul>
+  </div>
+{{ end }}

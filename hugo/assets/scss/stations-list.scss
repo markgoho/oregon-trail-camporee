@@ -1,0 +1,24 @@
+.station-list {
+  // outline: 1px solid yellow;
+  margin: 4rem auto;
+  display: flex;
+  gap: 2rem;
+  flex-wrap: wrap;
+  padding: 0;
+  list-style: none;
+  justify-content: center;
+  align-items: center;
+
+  li {
+    // outline: 1px solid pink;
+    font-family: PressStart2P, sans-serif;
+    width: 13rem;
+    text-align: center;
+    line-height: 1.5;
+  }
+
+  a {
+    text-decoration: none;
+    color: inherit;
+  }
+}

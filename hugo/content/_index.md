@@ -32,3 +32,5 @@ will only win if you spend them wisely.
 ## Amazing Oregon Trail
 
 The 2024 Glacier Lakes Spring Camporee, Amazing Oregon Trail, will be held at Camp Cutler. The Camporee will run Friday, April 19 through Sunday, April 21. You can see a map of the camp here.
+
+Scouts can register for the event at the [ScoutingEvent.com page](https://scoutingevent.com/397-glot2023). The cost is $20 per scout and $10 per adult.
