@@ -127,7 +127,7 @@ dist
 # https://nextjs.org/blog/next-9-1#public-directory-support
 
 public
-hugo/resources/_gen
+hugo/resources/
 # vuepress build output
 
 .vuepress/dist
