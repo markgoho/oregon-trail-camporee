@@ -1,4 +1,6 @@
-.main {
+#task + ul,
+#setup + ul,
+#rules + ul {
   li::marker {
     content: url(/img/arrow.svg);
     font-size: 0.8em;
@@ -14,17 +16,17 @@
   li + li {
     margin-top: 1rem;
   }
+}
 
-  h2 {
-    text-transform: uppercase;
-    font-size: 0.75rem;
-    letter-spacing: 2px;
-  }
+h2 {
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  letter-spacing: 2px;
 }
 
 .post-nav {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   margin-top: 4rem;
 
   a {
@@ -35,6 +37,7 @@
 
   .post-nav-item {
     width: 35ch;
+    display: none;
   }
 
   .post-nav-caption,
@@ -52,5 +55,45 @@
 
   .post-nav-item-next {
     text-align: right;
+  }
+}
+
+.market-item-list {
+  list-style: none;
+  margin: 1.5rem 0 0 0;
+  padding: 0;
+  display: flex;
+  gap: 1rem;
+  flex-wrap: wrap;
+
+  .market-item {
+    display: flex;
+    row-gap: 0.5rem;
+    text-align: center;
+    flex-direction: column;
+    font-family: PressStart2P, sans-serif;
+    font-size: 3rem;
+    width: 7rem;
+  }
+
+  .currency {
+    font-size: 1.25rem;
+    vertical-align: super;
+  }
+
+  .name {
+    font-size: 1rem;
+    text-transform: uppercase;
+    text-wrap: balance;
+    line-height: 1.15;
+  }
+}
+
+@media screen and (min-width: 48rem) {
+  .post-nav {
+    justify-content: space-between;
+    .post-nav-item {
+      display: block;
+    }
   }
 }
