@@ -1,0 +1,24 @@
+.token-table {
+  width: 100%;
+  font-family: PressStart2P, sans-serif;
+  font-size: clamp(0.75rem, 2vw, 1.5rem);
+  border-collapse: collapse;
+
+  td {
+    padding: 1rem 0;
+    line-height: 1.5;
+  }
+
+  .currency {
+    text-align: right;
+  }
+
+  .level {
+    padding-right: 0.5rem;
+  }
+
+  tr:nth-child(2) > td {
+    border-top: 2px solid var(--lime-green);
+    border-bottom: 2px solid var(--lime-green);
+  }
+}
