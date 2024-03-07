@@ -1,9 +1,13 @@
 ---
-title: Welcome
+title: Amazing Oregon Trail
 description: Face a series of thrilling challenges and stations along the Oregon Trail, testing your skills, teamwork, and resourcefulness.
 ---
 
 Ladies and gentlemen, scouts of Seneca Waterways! Welcome to The Amazing Oregon Trail! Your patrol will embark on an epic adventure, following in the footsteps of the brave pioneers who journeyed westward in search of a better life.
+
+The 2024 Glacier Lakes Spring Camporee, Amazing Oregon Trail, will be held at [Camp Cutler](https://maps.app.goo.gl/woE5EJqmfF2GCEQv5). The Camporee will run Friday, April 19 through Sunday, April 21. You can see a [map of Camp Cutler](https://scoutingevent.com/Download/39729750/OR/Map_J_Warren_Cutler_Scout_Reservation.pdf) here.
+
+Scouts can register for the event at the [ScoutingEvent.com page](https://scoutingevent.com/397-glot2023). The cost is $20 per scout and $10 per adult.
 
 You and your patrol will face a series of thrilling challenges and [stations](/stations/) along the trail, testing your skills, teamwork, and resourcefulness. Each
 station represents a vital aspect of life on the Oregon Trail - from fire building and river crossing to hunting and cooking. You'll need to work
@@ -28,9 +32,3 @@ Are you ready to brave the Amazing Oregon Trail, Scouts? Let's gear up and
 embrace the spirit of adventure that awaits us! Good luck and may the best
 patrol triumph! REMEMBER: You will not win if you do not spend tokens. You
 will only win if you spend them wisely.
-
-## Amazing Oregon Trail
-
-The 2024 Glacier Lakes Spring Camporee, Amazing Oregon Trail, will be held at Camp Cutler. The Camporee will run Friday, April 19 through Sunday, April 21. You can see a map of the camp here.
-
-Scouts can register for the event at the [ScoutingEvent.com page](https://scoutingevent.com/397-glot2023). The cost is $20 per scout and $10 per adult.
