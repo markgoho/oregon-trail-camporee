@@ -1,7 +1,52 @@
 ol {
   list-style: none;
+  font-family: PressStart2P, sans-serif;
+  margin: 0;
+  padding: 0;
 }
 
-p {
-  color: red;
+.weekend-itinerary {
+  margin: 4rem 0;
+  li + li {
+    margin-top: 3rem;
+  }
+}
+
+.weekday-name {
+  font-size: 1.5rem;
+  display: flex;
+  align-items: baseline;
+  gap: 2rem;
+}
+
+.month-day {
+  text-transform: uppercase;
+  font-size: 0.875rem;
+  line-height: 1.5;
+}
+
+.event-list {
+  margin-top: 2rem;
+
+  li + li {
+    margin-top: 2rem;
+  }
+
+  > li {
+    display: flex;
+    flex-direction: column;
+    row-gap: 0.25rem;
+    line-height: 1.5;
+  }
+
+  li > time {
+    display: block;
+    width: 10ch;
+  }
+}
+
+@media screen and (min-width: 40rem) {
+  .event-list > li {
+    flex-direction: row;
+  }
 }

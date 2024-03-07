@@ -8,10 +8,12 @@
 {{ define "main" }}
   <h1>{{ .Title }}</h1>
 
-  <ol>
+  <ol class="weekend-itinerary">
     <li>
-      <time datetime="2024-04-19">Friday <span>April 19</span></time>
-      <ol>
+      <time class="weekday-name" datetime="2024-04-19"
+        >Friday <span class="month-day">April 19</span></time
+      >
+      <ol class="event-list">
         <li>
           <time datetime="2024-04-19T18:00:00">6:00pm</time
           ><span>Check-in at Maxion Lodge</span>
@@ -23,8 +25,10 @@
       </ol>
     </li>
     <li>
-      <time datetime="2024-04-20">Saturday <span>April 20</span></time>
-      <ol>
+      <time class="weekday-name" datetime="2024-04-20"
+        >Saturday <span class="month-day">April 20</span></time
+      >
+      <ol class="event-list">
         <li>
           <time datetime="2024-04-20T08:45:00">8:45am</time
           ><span>Opening at Dining Hall</span>
@@ -66,8 +70,10 @@
       </ol>
     </li>
     <li>
-      <time datetime="2024-04-21">Sunday <span>April 21</span></time>
-      <ol>
+      <time class="weekday-name" datetime="2024-04-21"
+        >Sunday <span class="month-day">April 21</span></time
+      >
+      <ol class="event-list">
         <li>
           <time datetime="2024-04-21T08:45:00">8:45am</time>
           <span>Closing Ceremony and Awards</span>
