@@ -1,5 +1,6 @@
-baseURL = 'https://example.org/'
+baseURL = 'https://oregon-trail-camporee.info/'
 languageCode = 'en-us'
 title = 'Amazing Oregon Trail Camporee'
 publishDir = '../public'
 disableHugoGeneratorInject = true
+enableRobotsTXT = true
