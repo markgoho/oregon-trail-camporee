@@ -5,9 +5,17 @@ description: Face a series of thrilling challenges and stations along the Oregon
 
 Ladies and gentlemen, scouts of Seneca Waterways! Welcome to The Amazing Oregon Trail! Your patrol will embark on an epic adventure, following in the footsteps of the brave pioneers who journeyed westward in search of a better life.
 
+**The 2025 Glacier Lakes Camporee will be held Friday, June 6 through Sunday, June 8 at [Camp Cutler](https://maps.app.goo.gl/woE5EJqmfF2GCEQv5).** A link to register will be available soon.
+
+{{< save-the-date >}}
+
+<!--
+
 The 2024 Glacier Lakes Spring Camporee, Amazing Oregon Trail, will be held at [Camp Cutler](https://maps.app.goo.gl/woE5EJqmfF2GCEQv5). The Camporee will run Friday, April 19 through Sunday, April 21. You can see a [map of Camp Cutler](https://scoutingevent.com/Download/39729750/OR/Map_J_Warren_Cutler_Scout_Reservation.pdf) here.
 
-Scouts can register for the event at the [ScoutingEvent.com page](https://scoutingevent.com/397-glot2023). The cost is $20 per scout and $10 per adult.
+Scouts can register for the event at the [ScoutingEvent.com page](https://scoutingevent.com/397-glot2023). The cost is $20 per scout and $10 per adult. -->
+
+## About the Camporee
 
 You and your patrol will face a series of thrilling challenges and [stations](/stations/) along the trail, testing your skills, teamwork, and resourcefulness. Each
 station represents a vital aspect of life on the Oregon Trail - from fire building and river crossing to hunting and cooking. You'll need to work
@@ -23,12 +31,11 @@ ultimate prize at the trail's end are better. But remember, the journey will
 be arduous, and you'll need to use your tokens wisely to gain advantages at
 each station.
 
-Now, gather around, patrol leaders! It's time to prepare your patrol for the
-adventure that lies ahead. Take a moment to discuss your strategy and plan
-your approach to tackling the challenges you'll face. Remember, teamwork and
+Prepare your patrol for the adventure that lies ahead. Take a moment to discuss your strategy and plan
+your approach to tackling the challenges you'll face. Remember: teamwork and
 communication are the keys to success on the Oregon Trail.
 
-Are you ready to brave the Amazing Oregon Trail, Scouts? Let's gear up and
+<!-- Are you ready to brave the Amazing Oregon Trail, Scouts? Let's gear up and
 embrace the spirit of adventure that awaits us! Good luck and may the best
 patrol triumph! REMEMBER: You will not win if you do not spend tokens. You
-will only win if you spend them wisely.
+will only win if you spend them wisely. --> -->

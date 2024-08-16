@@ -86,3 +86,27 @@ body {
     padding: 0;
   }
 }
+
+.save-the-date {
+  text-align: center;
+  border: 5px dashed var(--light-green);
+  padding-bottom: 1rem;
+
+  h3 {
+    font-size: 2rem;
+  }
+
+  .date {
+    display: flex;
+    justify-content: center;
+    gap: 1rem;
+  }
+
+  img {
+    transform: scale(150%);
+  }
+
+  .right-arrow {
+    transform: rotate(180deg) scale(150%);
+  }
+}
